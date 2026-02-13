@@ -142,7 +142,7 @@ font-size: 2.5rem;
     flex-direction: column;
 }
 
-/* Inverte a rotação do segundo para parecer mais natural */
+/*  rotação do segundo  */
 .video-item:nth-child(even) {
     transform: rotate(-2deg);
 }
@@ -320,4 +320,5 @@ font-size: 2.5rem;
 
 @media (min-width: 768px) {
   .footer-bottom { text-align: left; }
+
 }
