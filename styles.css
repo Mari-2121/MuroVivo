@@ -192,7 +192,7 @@ font-style: normal;
   letter-spacing: 1px;
   text-transform: uppercase;
   
-  /* Efeito Neon Moderno */
+  /* Efeito Neon */
   text-shadow: 
     0 0 2px rgba(255, 255, 255, 0.8),
     0 0 12px #d4187fcc, 
@@ -394,7 +394,7 @@ font-style: normal;
 /* (Remover sublinhado e cor roxa) */
 .footer-col ul li a,
 .footer-col ul li a:visited {
-  color: #d1d5db; /* Cor cinza clara do texto original */
+  color: #d1d5db; 
   text-decoration: none; /* Remove sublinhado */
   transition: all 0.3s ease;
 }
@@ -413,7 +413,7 @@ font-style: normal;
 
 /* Efeito de hover nos links */
 .footer-col ul li a:hover {
-  color: #D4187F; /* Rosa ao passar o mouse */
+  color: #D4187F; /* Rosa passando mouse */
   padding-left: 5px;
 }
 
@@ -510,3 +510,4 @@ font-style: normal;
   }
 
 }
+
