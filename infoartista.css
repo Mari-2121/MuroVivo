@@ -447,13 +447,13 @@ filter: blur(5px) sepia(100%);
     color: white;
 }
 
-/* Ajuste para Mobile */
+/* Responsivo */
 @media (max-width: 768px) {
     .back-to-top {
-        bottom: 20px;
-        right: 5px;
-        width: 50px;
-        height: 50px;
-        font-size: 20px;
+        bottom: 15px;
+        right: 15px;
+        width: 45px;
+        height: 45px;
     }
 }
+
