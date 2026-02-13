@@ -170,7 +170,7 @@ body {
 }
 
 .video-wrapper:hover {
-    transform: rotate(0deg) scale(1.02); /* Endireita e aumenta levemente ao passar o rato */
+    transform: rotate(0deg) scale(1.02); /* Endireita e aumenta  */
 }
 
 .video-wrapper video {
@@ -456,6 +456,7 @@ filter: blur(5px) sepia(100%);
         height: 45px;
     }
 }
+
 
 
 
