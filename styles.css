@@ -269,7 +269,7 @@ font-style: normal;
   }
 }
 
-/* Card com Efeito Glassmorphism e Borda Brilhante */
+/* CBorda Brilhante */
 .pioneer-card {
   cursor: pointer;
   position: relative;
@@ -508,4 +508,5 @@ font-style: normal;
     opacity: 1;
     transform: scale(1) translateY(0);
   }
+
 }
