@@ -451,11 +451,12 @@ filter: blur(5px) sepia(100%);
 @media (max-width: 768px) {
     .back-to-top {
         bottom: 15px;
-        right: -45px;
+        right: -30px;
         width: 45px;
         height: 45px;
     }
 }
+
 
 
 
