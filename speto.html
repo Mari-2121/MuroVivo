@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muro Vivo - Speto</title>
+    <link rel="stylesheet" href="infoartista.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/xid5asr.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="./img/logobranco.png">
+
+</head>
+    <a href="#top" class="back-to-top">⬆</a>
+
+<body id="top">
+
+    <main class="hero-section">
+        <header class="hero-header">
+            <a href="index.html" class="back-link">← Voltar para galeria</a>
+            <span class="badge">Dupla mundialmente reconhecida</span>
+        </header>
+
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1><br> <span>Speto</h1>
+                    <h3>👥</h3>
+                    <p class="meta">1986-presente | São Paulo</p>
+                    <p class="description">
+                        João Speto Wainer iniciou sua trajetória no grafite em 1986, sendo um dos pioneiros da cena paulistana. Desenvolveu um estilo único mesclando letras, personagens e crítica social.
+                    </p> 
+                    <div class="badge-tech">🎨 Xilogravura</div>
+                </div>
+
+                <div class="video-wrapper">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/tMmDeLN_wZI?si=hfxZm7u-YDVHfC6f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                    <img src="./img/PERSONAGEM.png" class="logo-overlay" alt="Muro Vivo Logo">
+                </div>
+            </div>
+        </div>
+    </main>
+    
+
+    <!-- GALERIA -->
+    <section class="galeria">
+        <div style="background-image: url(./img/speto1.jpg);"></div>
+        <div style="background-image: url(./img/SPETO2.jpg);"></div>
+        <div style="background-image: url(./img/SPETO3.jpg);"></div>
+        <div style="background-image: url(./img/speto.jfif);"></div>
+        <div style="background-image: url(./img/speto4.jpg);"></div>
+        <div style="background-image: url(./img/speto5.jpg);"></div>
+        <div style="background-image: url(./img/speto6.jpg);"></div>
+    </section>
+
+    <section class="legacy-section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Legado e <span>Conquistas</span></h2>
+            <div class="cards-grid">
+                <div class="glass-card animate-on-scroll">
+                    <h4>Estética Brasileira</h4>
+                    <p>Pioneiro em unir o grafite à xilogravura e à literatura de cordel, criando uma identidade visual única e nacional.</p>
+                </div>
+                <div class= "glass-card animate-on-scroll">
+                    <h4>Alcance Global:</h4>
+                    <p>Assinou a identidade visual da Copa do Mundo de 2014, levando a arte de rua brasileira para o mundo todo.</p>
+                </div>
+                <div class="glass-card animate-on-scroll">
+                    <h4>Pilar do Movimento:</h4>
+                    <p>Parte da primeira geração do grafite paulistano, transformando a cidade em uma galeria a céu aberto.</p>
+                </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="quote-container animate-on-scroll">
+                <blockquote>
+                    "Cada spray é um grito contra a desigualdade, cada muro é uma denúncia"
+                    <br><small> — Speto</small>
+                </blockquote>
+            </div>
+                        <div class="divider"></div>
+
+        </div>
+    </section>
+
+    <section class="impact-section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Impacto <span>Cultural</span></h2>
+            <div class="impact-box animate-on-scroll">
+                <p>Foi um dos primeiros a transformar o grafite brasileiro em carreira artística sustentável. Suas obras abordam questões sociais urbanas e ele foi fundamental na consolidação do grafite como forma legítima de arte e expressão no Brasil.</p>
+            </div>
+        </div>
+    </section>
+
+    <script> //animacao scroll para ficar suave//
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('reveal');
+                }
+            });
+        }, { threshold: 0.15 });
+
+        document.querySelectorAll('.animate-on-scroll').forEach(el => observer.observe(el));
+    </script>
+
+
+    <!-- FOOTER -->
+    <footer class="replicated-footer">
+        <div class="container">
+            <div class="footer-columns">
+
+                <!-- Coluna 1: Sobre o Projeto -->
+                <div class="footer-col">
+                    <h3>MUROVIVO</h3>
+                    <p>Preservando a memória e celebrando a importância da arte urbana brasileira como expressão
+                        cultural e social. Projeto Integrador Senac</p>
+                </div>
+
+                <!-- Coluna 2: Navegação Rápida -->
+                <div class="footer-col">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="historia.html">História</a></li>
+                        <li><a href="index.html">Quem Somos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+
+                <!-- Coluna 3: Redes Sociais com Ícones -->
+                <div class="footer-col">
+                    <h3>Redes Sociais</h3>
+                    <p>Segue-nos e acompanha as novidades da arte urbana brasileira.</p>
+                    <div class="social-icons">
+                        <!-- Instagram -->
+                        <a href="https://www.instagram.com/mlazuli_bob/" target="_blank" class="social-circle"
+                            aria-label="Instagram">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                            </svg>
+                        </a>
+                        <!-- Facebook -->
+                        <a href="https://facebook.com" target="_blank" class="social-circle" aria-label="Facebook">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                            </svg>
+                        </a>
+                        <!-- Senac / Multimidia -->
+                        <a href="https://www.sp.senac.br/cursos-tecnicos/curso-tecnico-em-multimidia" target="_blank"
+                            class="social-circle" aria-label="Senac Multimídia">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                                <path d="M6 12v5c3 3 9 3 12 0v-5" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="footer-bottom">
+                &copy; 2026 MUROVIVO. Todos os direitos reservados.
+            </div>
+        </div>
+    </footer>
+    
+
+</body>
+
+</html>
