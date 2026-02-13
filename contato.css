@@ -203,14 +203,14 @@
     right: 30px;     /* Distância do lado direito */
     width: 60px;
     height: 60px;
-    background-color: #D4187F; /* Use a cor do seu projeto */
+    background-color: #D4187F; 
     color: white;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    z-index: 1000;   /* Garante que o botão fica por cima de outros elementos */
+    z-index: 1000;  
     transition: transform 0.3s ease;
 }
 
@@ -268,3 +268,4 @@
 @media (min-width: 768px) {
   .footer-bottom { text-align: left; }
 }
+
