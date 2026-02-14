@@ -388,7 +388,7 @@ body {
     /* (FOTOS DOS GRAFITES) */
     .galeria {
         height: auto; 
-        flex-direction: column; /* Fotos uma abaixo da outra */
+        flex-direction: row; /* Fotos uma abaixo da outra */
         gap: 15px;
         padding: 0 10px;
     }
@@ -456,6 +456,7 @@ filter: blur(5px) sepia(100%);
         height: 45px;
     }
 }
+
 
 
 
