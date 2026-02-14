@@ -448,7 +448,7 @@ filter: blur(5px) sepia(100%);
 }
 
 /* Responsivo */
-@media (max-width: 768px) {
+@media (max-width: 320px) {
     .back-to-top {
         bottom: 15px;
         right: 20px;
@@ -456,6 +456,7 @@ filter: blur(5px) sepia(100%);
         height: 45px;
     }
 }
+
 
 
 
